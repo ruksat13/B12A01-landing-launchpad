@@ -221,3 +221,38 @@ main {
     font-size: 0.9rem;
     color: #888;
 }
+
+/* touch style  */
+.touch{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    color: rgba(255, 255, 255, 1);
+
+    
+}
+
+.touch h3{
+
+    font-weight: bold;
+    font-size: 97px;
+}
+.touch-column{
+    width: 50%;
+    
+
+}
+
+.touch input[type="text"] ,.touch input[type="name"] ,.touch textarea{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: rgba(255, 255, 255, 1);
+}
+label {
+    color: black;
+}
