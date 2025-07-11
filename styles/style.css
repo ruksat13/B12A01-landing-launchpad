@@ -13,8 +13,8 @@
 }
 
 /* shared style */
-.secondary-bg{
-    background-color:rgba(78, 71, 255, 0.1);
+.secondary-bg {
+    background-color: rgba(78, 71, 255, 0.1);
 }
 
 .text-primary {
@@ -30,6 +30,10 @@
     border-radius: 10px;
     border: none;
 
+}
+
+.btn-primary:hover {
+    background-color: aquamarine;
 }
 
 
@@ -66,22 +70,23 @@ nav {
     font-weight: bold;
     font-size: 65px;
     color: #252432;
-    
+
 
 }
 
 /* section action style */
-.action{
+.action {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 31px;
     padding: 0 150px;
 }
+
 .section-title {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
-    
+
 
 }
 
@@ -89,12 +94,10 @@ nav {
     /* font-weight: bold; */
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5)
-    
-
 }
 
-.action-img{
-    border-radius: 48px; 
+.action-img {
+    border-radius: 48px;
 }
 
 /* .section-li {
@@ -120,38 +123,101 @@ section ul {
     text-align: center;
     
 } */
- /* main styles */
- main{
+/* main styles */
+main {
     width: 1140px;
-    margin:  0 auto;
- }
+    margin: 0 auto;
+}
 
 /* productive */
-.Productive{
+.Productive {
     border-radius: 24px;
-    padding: 2px ;
+    padding: 2px;
     text-align: center;
     margin-top: 116px;
 }
-.productive-items{
+
+.productive-items {
     display: flex;
     justify-content: space-around;
     padding: 0%;
-   
+
 }
 
-.item-title{
+.item-title {
     font-size: 80px;
     color: rgba(78, 71, 255, 1);
     padding: 0%;
-  
-    
+
+
 
 }
 
-.item-description{
+.item-description {
     color: rgba(0, 0, 0, 0.5);
-    
-    
 
+
+
+}
+
+/* feedback style  */
+.feedback-section {
+    margin-top: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.feedback {
+    width: 366px;
+    border: 2px solid #F2EDED;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.feedback-section h2 {
+    font-weight: bold;
+    font-size: 42px;
+
+}
+
+.feedback-container{
+    display: flex;
+    gap: 50px;
+
+}
+
+
+
+
+.feedback ul li {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer-info h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.reviewer-info p {
+    margin: 2px 0 0;
+    font-size: 0.9rem;
+    color: #888;
 }
