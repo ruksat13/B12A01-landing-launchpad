@@ -1,62 +1,105 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 
+    color: #252432;
+}
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* shared style */
-.text-primary{
-    color:#4E47FF
+.text-primary {
+    color: #4E47FF
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
-    font-weight:bold ;
+    font-weight: bold;
     font-size: 16px;
     color: white;
     padding: 12px 36px;
-    border-radius:10px;
+    border-radius: 10px;
     border: none;
-    
+
 }
+
 /* header style */
-.header{
-     background-image:url('../Assets/Hero-bg.png') ;
-     
+.header {
+    background-image: url('../Assets/Hero-bg.png');
+
 }
+
 /* nav styles */
-nav{
-    display:flex ;
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 85px 150px;
-   
-   
+
+
 }
-.nav-title{
-    font-weight:900;
+
+.nav-title {
+    font-weight: 900;
     font-size: 34px;
 }
 
 /*banner styles  */
-.banner{
-   text-align: center;
-   padding: 30px 152px 267.5px;
-    
+.banner {
+    text-align: center;
+    padding: 30px 152px 267.5px;
+
 }
-.banner-title{
-    font-weight:bold ;
+
+.banner-title {
+    font-weight: bold;
     font-size: 65px;
+    color: #252432;
     
+
+}
+
+/* section style */
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    padding: 0 150px;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    
+
+}
+
+.section-description {
+    /* font-weight: bold; */
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5)
+    
+
+}
+
+.section-li {
+    list-style: none;
+
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li img {
+    border-radius: 48px; 
 }
 
 
-.raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: 65px;
-  color: #252432;
-}
